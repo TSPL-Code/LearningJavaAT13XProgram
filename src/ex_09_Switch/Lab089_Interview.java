@@ -3,6 +3,7 @@ package ex_09_Switch;
 public class Lab089_Interview {
     public static void main(String[] args) {
         char ch = 'A';
+        System.out.println(ch);
         switch (ch){
 
             case 65:

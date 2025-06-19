@@ -4,7 +4,7 @@ public class Lab093_JDK13Above {
     public static void main(String[] args) {
         // in JDK > 13
         //  No need of break keyword
-        // one line supported.
+        // one line supported.(multiple lines are not allowed)
         int itemCode = 002;
         switch (itemCode){
             case 001 -> System.out.println("001");

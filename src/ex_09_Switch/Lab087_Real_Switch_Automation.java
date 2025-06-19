@@ -14,7 +14,7 @@ public class Lab087_Real_Switch_Automation {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the browser, Which you want to start!!");
         String browser = scanner.next();
-        browser  = browser.toLowerCase();
+        browser  = browser.toLowerCase();//
 
         switch (browser){
             case  "chrome":
